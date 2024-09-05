@@ -1,0 +1,55 @@
+body {
+    color: white;
+    background: rgb(40, 0, 0);
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(255, 243, 244);
+    padding: 20px;
+    font-size: 52px;
+    color:  rgb(255, 243, 244);
+    font-family: "New Amsterdam", system-ui;
+}
+
+.chamada {
+    background: rgb(101, 0, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 65px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.bliblioteca {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+
+.acervo {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bliblioteca img  {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.bliblioteca img:hover {
+    opacity: 1.0;
+    border: 1px solid red;
+}
